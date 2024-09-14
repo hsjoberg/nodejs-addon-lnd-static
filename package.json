@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install": "node skip-install.js",
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean"
   },
