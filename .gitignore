@@ -1,0 +1,6 @@
+node_modules
+build
+bin
+lnd
+liblnd.a
+liblnd.so
