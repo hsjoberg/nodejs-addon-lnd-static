@@ -17,7 +17,7 @@
       }],
       ['OS=="mac"', {
         "libraries": [
-          "<!(node -e \"console.log(process.env.LND_LIB_DIR ? process.env.LND_LIB_DIR + '/liblnd.a' : '<(module_root_dir)/liblnd.a')\")"
+          "<!(node -e \"console.log(process.env.LND_LIB_DIR ? process.env.LND_LIB_DIR + '/liblnd.a' : '<(module_root_dir)/../../liblnd.a')\")"
         ],
         "xcode_settings": {
           "GCC_ENABLE_CPP_EXCEPTIONS": "YES"
@@ -25,7 +25,7 @@
       }],
       ['OS=="linux"', {
         "libraries": [
-          "<!(node -e \"console.log(process.env.LND_LIB_DIR ? process.env.LND_LIB_DIR + '/liblnd.a' : '<(module_root_dir)/liblnd.a')\")"
+          "<!(node -e \"console.log(process.env.LND_LIB_DIR ? process.env.LND_LIB_DIR + '/liblnd.a' : '<(module_root_dir)/../../liblnd.a')\")"
         ]
       }]
     ],
